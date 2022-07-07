@@ -33,5 +33,8 @@ module.exports = {
 		hot: true,
 		open: true,
 		historyApiFallback: true,
+		client: {
+			overlay: { warnings: false, errors: true },
+		},
 	},
 };
