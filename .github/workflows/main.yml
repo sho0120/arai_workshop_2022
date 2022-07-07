@@ -17,4 +17,6 @@ jobs:
       - name: Run build for main
         run: npm run build
       - name: Deploy to firebase
-        run: npm run deploy --token=${{ secrets.FIREBASE_TOKEN }}
+        run: npm run deploy --token $FIREBASE_TOKEN
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
