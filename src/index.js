@@ -11,6 +11,8 @@ const addFavoriteWord = (word) => {
 document.addEventListener("DOMContentLoaded", () => {
 	const confirmButton = document.getElementById("confirm__button");
 	confirmButton.addEventListener("click", () => {
-		addFavoriteWord(document.getElementById("word__area").value);
+		const text_area = document.getElementById("word__area");
+		addFavoriteWord(text_area.value);
+		text_area.value = "";
 	});
 });
