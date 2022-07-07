@@ -5,6 +5,7 @@ const favoriteWords = collection(db, "favorite_words");
 
 const addFavoriteWord = (word) => {
 	if (word.length === 0) return;
+	console.log(`send ${word}`);
 	addDoc(favoriteWords, { word });
 };
 
