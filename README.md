@@ -81,9 +81,13 @@ npm run start
 
 ![12](https://user-images.githubusercontent.com/52741042/177872716-594dde22-79ce-4a20-a05a-e607b2678dcb.PNG)
 
+- You have to see that the app is correctly connected to the database by looking the Firestore console.
+
+![11_2](https://user-images.githubusercontent.com/52741042/177877559-41f0e26f-252e-49df-be55-a089775703a1.PNG)
+
 ### 7. Setup Deployment
 
-- Open '.firebaserc' file and rewrite "arai-workshop-2022" to your firebase project name.
+- Open '.firebaserc' file and rewrite "arai-workshop-2022" to your firebase project ID (not project name).
 
 ![13_1](https://user-images.githubusercontent.com/52741042/177873285-09de58b1-a433-472a-9a3e-ff1ae939bed5.PNG)
 
@@ -120,8 +124,18 @@ firebase login:ci
 
 ![16](https://user-images.githubusercontent.com/52741042/177872724-239bb2a0-87c1-416d-964e-da07cb34571d.PNG)
 
+- Go to Actions setting and enable github actions
+
+![15_2](https://user-images.githubusercontent.com/52741042/177879050-e324b559-36a1-4f7f-9925-949cea4723a0.PNG)
+
 - Then the project will automatically deployed when there is a push to 'main' branch
   - You can see the yml file in '.github/workflows/main.yml'
+
+```
+git add .
+git commit -m "test commit"
+git push origin main
+```
 
 ### 9. Just enjoy customizing the project!
 
