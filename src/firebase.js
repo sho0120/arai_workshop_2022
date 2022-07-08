@@ -2,12 +2,12 @@ import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-	apiKey: "AIzaSyDaQvfAm1Emc0zu73HgeR-Uj0UjdBYZjbw",
-	authDomain: "arai-workshop-2022.firebaseapp.com",
-	projectId: "arai-workshop-2022",
-	storageBucket: "arai-workshop-2022.appspot.com",
-	messagingSenderId: "159582546812",
-	appId: "1:159582546812:web:162ffa2dda8bed5a1092f9",
+    apiKey: "AIzaSyDhPVHxf_QYvib1yzHok4NCqd0CzuEyXjA",
+    authDomain: "risho-61321.firebaseapp.com",
+    projectId: "risho-61321",
+    storageBucket: "risho-61321.appspot.com",
+    messagingSenderId: "983747430437",
+    appId: "1:983747430437:web:f8fb615942bddad3fbd7cc"
 };
 
 const app = initializeApp(firebaseConfig);
