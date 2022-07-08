@@ -87,7 +87,7 @@ npm run start
 
 ### 7. Setup Deployment
 
-- Open '.firebaserc' file and rewrite "arai-workshop-2022" to your firebase project ID (not project name).
+- Open '.firebaserc' file and rewrite "arai-workshop-2022" to your firebase project ID <b>(not project name)</b>.
 
 ![13_1](https://user-images.githubusercontent.com/52741042/177873285-09de58b1-a433-472a-9a3e-ff1ae939bed5.PNG)
 
@@ -100,7 +100,7 @@ firebase login
 
 ![13_2](https://user-images.githubusercontent.com/52741042/177873284-a5095fb4-3aff-4e80-a699-391bd2d09f91.PNG)
 
-- You can deploy your project by running
+- You can deploy your project by running these commands
   - If succeeded, you can see your app in the 'Hosting URL'
 
 ```
